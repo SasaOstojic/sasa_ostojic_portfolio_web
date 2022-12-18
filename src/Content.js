@@ -15,11 +15,11 @@ import services_logo1 from "./assets/images/Services/logo1.png";
 import services_logo2 from "./assets/images/Services/logo2.png";
 import services_logo3 from "./assets/images/Services/logo3.png";
 
-import project1 from "./assets/images/projects/imlek_kravica.jpeg";
-import project2 from "./assets/images/projects/travel.png";
-import project3 from "./assets/images/projects/audio.jpeg";
-import project4 from "./assets/images/projects/smartcat.png";
-import project5 from "./assets/images/projects/crveni.png";
+import project1 from "./assets/images/Projects/imlek_kravica.jpeg";
+import project2 from "./assets/images/Projects/travel.png";
+import project3 from "./assets/images/Projects/audio.jpeg";
+import project4 from "./assets/images/Projects/smartcat.png";
+import project5 from "./assets/images/Projects/crveni.png";
 import person_project from "./assets/images/Projects/sasa_image.png";
 
 import avatar1 from "./assets/images/Testimonials/uros.png";
