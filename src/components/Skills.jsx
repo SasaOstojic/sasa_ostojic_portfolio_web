@@ -70,7 +70,7 @@ const Skills = () => {
               openModal();
             }} className='bg-white sm:cursor-pointer relative group w-full flex items-center gap-5 p-5 max-w-sm rounded-md border-2 border-slate-200'>
               <div>
-                <img src={skills.logo} alt="..." className='w-10 group-hover:scale-125 duration-200'/>
+                <img src={skill.logo} alt="..." className='w-10 group-hover:scale-125 duration-200'/>
               </div>
               <div>
                 <h6>{skill.name}</h6>
