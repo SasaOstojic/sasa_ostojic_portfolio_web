@@ -1,4 +1,5 @@
 // import components
+
 import Hero from "./components/Hero";
 import Skills from "./components/Skills";
 import Service from "./components/Services";
@@ -10,7 +11,6 @@ import Navbar from "./Layouts/Navbar";
 import { useEffect } from "react";
 import Aos from 'aos';
 import 'aos/dist/aos.css'
-
 
 
 const App = () => {
