@@ -9,7 +9,6 @@ const Hireme = () => {
           <h4 className='subtitle'>{Hireme.subtitle}</h4>
           <br />
           <div className='flex items-center md:flex-row flex-col-reverse'>
-            <img src={Hireme.image1} alt="" className='max-w-sm md:block hidden' />
             <div className='border-2 border-dark_primary max-w-sm p-10 shadow-sm rounded-x1 rounded-br-[8rem] sm:min-w-[22rem] marginb' style={{marginLeft: '50px'}}>
               <p className='leading-7'>{Hireme.para}</p>
               <br />

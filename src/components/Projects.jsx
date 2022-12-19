@@ -30,7 +30,7 @@ const Projects = () => {
               >
                 {Projects.project_content.map((content, i) => (
                    <SwiperSlide key={i} className="bg-white rounded-3xl p-5 border-b-8 border-[#faf9fd] h-fit">
-                      <img src={content.image} style={{width: '200px'}} alt="..."/>
+                      <img src={content.image} style={{width: '200px', height: '150px', objectFit:'cover'}} alt="..."/>
                       <div className='flex flex-col gap-1 mt-2'>
                         <h5 className='font-bold font-Ppoppins'>{content.title}</h5>
                         <a href={content.link} className='font bold text-black self-end'> See this website &rarr;</a>
