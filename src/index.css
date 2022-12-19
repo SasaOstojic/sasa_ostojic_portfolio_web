@@ -80,6 +80,6 @@
     top: 15%;
   }
   .hero_img {
-    max-height: 200px;
+    width: 200px;
   }
 }
