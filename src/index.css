@@ -79,4 +79,7 @@
   h1.mobile_position {
     top: 15%;
   }
+  .hero_img {
+    max-height: 200px;
+  }
 }
