@@ -28,7 +28,7 @@ const Contact = () => {
           <h4 className='subtitle' data-aos='fade-down'>{Contact.subtitle}</h4>
           <br />
           <div className='flex gap-10 md:flex flex-col'>
-            <form  ref={form} className='flex-1 flex flex-col gap-5' data-aos="fade-up" onSubmit={sendEmail}>
+            <form id='form'  ref={form} className='flex-1 flex flex-col gap-5' data-aos="fade-up" onSubmit={sendEmail}>
               <input type='text' name="from_name" placeholder="Name" required className='border border-slate-600 p-3 rounded' />
               <input type='email' name="user_email" placeholder="Email ID" required className='border border-slate-600 p-3 rounded' />
               <textarea name="message" placeholder='Message' className='border border-slate-600 p-3 rounded h-44' required ></textarea>
