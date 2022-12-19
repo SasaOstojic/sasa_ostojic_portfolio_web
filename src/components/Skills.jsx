@@ -44,13 +44,13 @@ const Skills = () => {
       style={customStyles}
       >
         <div className='flex items-center gap-2'>
-          <img src={selectSkill?.logo} alt="..." className='w-24' />
+          <img src={selectSkill?.logo} alt="..." className='w-24 mr-4' />
           <h6>{selectSkill?.name}</h6>
         </div>
         <br />
-        <ul className='list-decimal px-4 font-Poppins sm:text-sm text-xs !leading-7'>
-          <li>{selectSkill?.para}</li>
-        </ul>
+        <div className='list-decimal px-4 font-Poppins sm:text-sm text-xs !leading-7'>
+          <p>{selectSkill?.para}</p>
+        </div>
         <br />
         <div className='flex justify-end'>
           <button onClick={closeModal} classname='btn'>Close</button>
