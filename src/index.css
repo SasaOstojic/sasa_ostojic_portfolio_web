@@ -69,3 +69,17 @@
 .swiper-pagination-bullet {
   @apply w-3 h-3 bg-dark_primary;
 }
+
+@media screen and (min-width: 1199px){
+  .hero_img {
+    max-width: 340px;
+  }
+}
+@media screen and (max-width: 575px){
+  h1.mobile_position {
+    top: 15%;
+  }
+  .hero_img {
+    max-width: 240px;
+  }
+}

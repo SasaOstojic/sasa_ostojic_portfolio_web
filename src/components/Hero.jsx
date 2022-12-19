@@ -5,10 +5,10 @@ const Hero = () => {
   return <section id='home'>
     <div className='min-h-screen relative flex md:flex-row flex-col-reverse md:items-end justify-center items-center'>
       <div data-aos = 'slide-left' data-aos-delay='1200' className='absolute h-full md:w-4/12 w-8/12 top-0 right-0 bg-primaryLinear bottom-0 -z-10'>
-        <h1 className='rotate-90 absolute top-[30%] right-[-15%] text-[#eaf2fa]'>
+        <h1 className='rotate-90 absolute top-[30%] right-[-15%] text-[#eaf2fa] mobile_position'>
           {hero.firstName}{' '}
           <span className='text-dark_primary'>{hero.LastName}</span>
-          </h1>
+        </h1>
       </div>
       <div className='pb-16 px-6 pt-6'>
         <h2>{hero.title}</h2>
@@ -25,7 +25,7 @@ const Hero = () => {
           ))}
         </div>
       </div>
-      <div style={{maxWidth: '400px'}}>
+      <div className="hero_img">
         <img src={hero.image} alt="..." className='h-full object-cover' />
       </div>
     </div>

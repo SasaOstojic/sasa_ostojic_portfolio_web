@@ -44,7 +44,7 @@ const Skills = () => {
       style={customStyles}
       >
         <div className='flex items-center gap-2'>
-          <img src={selectSkill?.logo} alt="..." />
+          <img src={selectSkill?.logo} alt="..." className='w-24' />
           <h6>{selectSkill?.name}</h6>
         </div>
         <br />
