@@ -80,11 +80,13 @@
     top: 15%;
   }
   .hero_img {
+    position: relative;
+    top: 20px;
     display: flex;
     justify-self: center;
     text-align: center;
     justify-content: center;
     width: 400px;
-    height: 200px;
+    height: 270px;
   }
 }
