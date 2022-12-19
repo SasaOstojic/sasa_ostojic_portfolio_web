@@ -80,6 +80,10 @@
     top: 15%;
   }
   .hero_img {
+    display: flex;
+    justify-self: center;
+    text-align: center;
+    justify-content: center;
     width: 400px;
     height: 200px;
   }
